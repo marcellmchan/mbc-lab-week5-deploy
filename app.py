@@ -78,7 +78,7 @@ if menu == "Klasifikasi Gambar Apple vs Orange":
             with col1:
                 st.subheader("Gambar yang diupload")
                 image = Image.open(uploaded_file)
-                st.image(image, use_column_width=True)
+                st.image(image, use_container_width=True)
                 
             with col2:
                 st.subheader("Hasil Prediksi")
